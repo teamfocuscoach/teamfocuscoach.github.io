@@ -458,8 +458,3 @@ body {
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #74C141, #4F7F2F);
   color: white;
 }
-
-.centered {
-    margin: 0 auto !important;
-    float: none !important;
-}
