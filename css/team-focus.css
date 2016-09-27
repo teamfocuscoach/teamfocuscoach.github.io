@@ -458,3 +458,16 @@ body {
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #74C141, #4F7F2F);
   color: white;
 }
+
+#registrationForm {
+  width: calc(100% - 30%);
+}
+
+#registrationForm div.form-group {
+  text-align: justify;
+}
+
+#registrationForm div.form-group input, select {
+  left: 100px;
+  right: 100px;
+}

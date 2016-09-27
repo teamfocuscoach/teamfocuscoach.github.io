@@ -226,18 +226,25 @@
                 </div>
             </div>
             <div class="row">
-                <form class="form-inline">
+                <form id="registrationForm" class="center-block">
                     <div class="form-group">
-                        <label class="sr-only" for="txtName">NOME</label>
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="txtName" placeholder="Nome">
-                        </div>
+                        <label for="txtName">NOME</label>
+                        <input type="text" class="form-control" id="txtName" placeholder="Nome">
                     </div>
                     <div class="form-group">
-                        <label class="sr-only" for="txtEMail">EMAIL</label>
-                        <div class="input-group">
-                            <div class="input-group-addon">@</div>
-                            <input type="text" class="form-control" id="txtEMail" placeholder="e-mail">
+                        <label for="txtEMail">EMAIL</label>
+                        <input type="text" class="form-control" id="txtEMail" placeholder="e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEMail">COMO VOCÊ AVALIA SEU GRAU DE VIDA SAUDÁVEL ATUALMENTE?</label>
+                        <div class="form-group">
+                            <select id="styleSelect" class="form-control">
+                                <option value="-1">SELECIONE</option>
+                                <option value="0">Sedentário</option>
+                                <option value="1">Normal</option>
+                                <option value="2">Exercícios Leves</option>
+                                <option value="3">Exercícios Pesados</option>
+                            </select>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-success">Enviar</button>
